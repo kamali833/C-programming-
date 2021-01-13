@@ -10,22 +10,20 @@ int main()
          gets(name);
          len=strlen(name);
          for(i=0;i<len;i++)
-    
-     {
-    
-    
-    if(name[i]=='A'|| name[i]=='a'|| name[i]=='E'|| name[i]=='e'|| name[i]=='I'|| name[i]=='i'|| name[i]=='O'|| name[i]=='o'|| name[i]=='U'|| name[i]=='u' )
-    
-            {
 
-                  count++;
+         {
+               if(name[i]=='A'|| name[i]=='a'|| name[i]=='E'|| name[i]=='e'|| name[i]=='I'|| name[i]=='i'|| name[i]=='O'|| name[i]=='o'|| name[i]=='U'|| name[i]=='u' )
+    
+               {
+
+                    count++;
       
-            }
+               }
 
-      }
+         }
 
-            printf("Number of vowels in the name: %d",count);
+         printf("Number of vowels in the name: %d",count);
       
-            return 0;
+         return 0;
 
-   }
+  }
