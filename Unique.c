@@ -28,7 +28,7 @@ int main()
                       unique[k]=string[i];
                       k++;
                }  
-}   
+      }   
         
  
        printf("The unique character in the string:");
